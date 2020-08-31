@@ -1,0 +1,761 @@
+@keyframes news1 {
+    0% {
+      
+      opacity: 0%;
+      display: none;
+      pointer-events: none;
+      
+    }
+    5% {
+      
+      opacity: 0%;
+      display: block;
+      pointer-events: auto;
+      
+    }
+    10% {
+      
+      opacity: 90%;
+  /*     transform: translateX(-50%) */
+      display: block;
+      pointer-events: auto;
+      
+    }
+    15% {
+      
+      opacity: 100%;
+  /*     transform: translateX(0%); */
+      display: block;
+      pointer-events: auto;
+      
+    }
+    20% {
+      opacity: 100%;
+  /*     transform: translateX(50%); */
+      display: block;
+      pointer-events: auto;
+      
+    }
+    25% {
+      
+      opacity: 100%;
+  /*     transform: translateX(50%); */
+      display: block;
+      pointer-events: auto;
+      
+    }
+    30% {
+      opacity: 50%;
+      display: block;
+      pointer-events: auto;
+    }
+    
+    35% {
+      opacity: 0%;
+      display: none;
+      pointer-events: none;
+    }
+    
+    40% {
+      opacity: 0%;
+      display: none;
+      pointer-events: none;
+    }
+    
+    45% {
+      opacity: 0%;
+      display: none;
+      pointer-events: none;
+    }
+    
+    50% {
+      opacity: 0%;
+      display: none;
+      pointer-events: none;
+    }
+    
+    55% {
+      opacity: 0%;
+      display: none;
+      pointer-events: none;
+    }
+    
+    60% {
+      opacity: 0%;
+      display: none;
+      pointer-events: none;
+    }
+    65% {
+      opacity: 0;
+      display: none;
+      pointer-events: none;
+    }
+    70% {
+      opacity: 0%;
+      display: none;
+      pointer-events: none;
+    }
+    75% {
+      opacity: 00%;
+      display: none;
+      pointer-events: none;
+    }
+    80% {
+      opacity: 00%;
+      display: none;
+      pointer-events: none;
+    }
+    90% {
+      opacity: 00%;
+      display: none;
+      pointer-events: none;
+    }
+    95% {
+      opacity: 0%;
+      display: none;
+      pointer-events: none;
+    }
+    100% {
+      opacity: 0;
+      display: none;
+      pointer-events: none;
+    }
+  }
+  
+  @keyframes news2 {
+    
+    0% {
+      
+      opacity: 0%;
+      display: none;
+      pointer-events: none;
+      
+    }
+    5% {
+      
+      opacity: 0%;
+      display: none;
+      pointer-events: none;
+    }
+    10% {
+      
+      opacity: 0%;
+  /*     transform: translateX(-50%) */
+      display:none;
+      pointer-events: none;
+    }
+    15% {
+      
+      opacity: 00%;
+  /*     transform: translateX(0%); */
+      display:none;
+      pointer-events: none;
+    }
+    20% {
+      opacity: 00%;
+  /*     transform: translateX(50%); */
+      display:none;
+      pointer-events: none;
+    }
+    25% {
+      
+      opacity: 00%;
+  /*     transform: translateX(50%); */
+      display:none;
+      pointer-events: none;
+    }
+    30% {
+      opacity: 0%;
+      display:none;
+      pointer-events: none;
+    }
+    
+    35% {
+      opacity: 0%;
+      display:none;
+      pointer-events: none;
+      
+    }
+    
+    40% {
+      opacity: 90%;
+      display:block;
+      pointer-events: auto;
+    }
+    
+    45% {
+      opacity: 100%;
+      display:block;
+      pointer-events: auto;
+    }
+    
+    50% {
+      opacity: 100%;
+      display: block;
+      pointer-events: auto;
+    }
+    
+    55% {
+      opacity: 100%;
+      display: block;
+      pointer-events: auto;
+    }
+    
+    60% {
+      opacity: 50%;
+      display: block;
+      pointer-events: auto;
+    }
+    65% {
+      opacity: 0;
+      display: none;
+      pointer-events: none;
+    }
+    70% {
+      opacity: 0%;
+      pointer-events: none;
+    }
+    75% {
+      opacity: 00%;
+      pointer-events: none;
+    }
+    80% {
+      opacity: 00%;
+      pointer-events: none;
+    }
+    90% {
+      opacity: 00%;
+      pointer-events: none;
+    }
+    95% {
+      opacity: 0%;
+      pointer-events: none;
+    }
+    100% {
+      opacity: 0;
+      pointer-events: none;
+    }
+    
+  }
+  
+  @keyframes news3 {
+    
+    0% {
+      
+      opacity: 0%;
+      pointer-events: none;
+      display: none;
+    }
+    5% {
+      
+      opacity: 0%;
+      pointer-events: none;
+      
+    }
+    10% {
+      
+      opacity: 0%;
+      display: none;
+  /*     transform: translateX(-50%) */
+      
+    }
+    15% {
+      
+      opacity: 00%;
+      display: none;
+  /*     transform: translateX(0%); */
+      
+    }
+    20% {
+      opacity: 00%;
+      display: none;
+  /*     transform: translateX(50%); */
+      
+    }
+    25% {
+      
+      opacity: 00%;
+      display: none;
+  /*     transform: translateX(50%); */
+      
+    }
+    30% {
+      opacity: 0%;
+      display: none;
+      
+    }
+    
+    35% {
+      opacity: 0%;
+      display: none;
+    }
+    
+    40% {
+      opacity: 0%;
+      display: none;
+    }
+    
+    45% {
+      opacity: 00%;
+      display: none;
+    }
+    
+    50% {
+      opacity: 00%;
+      display: none;
+    }
+    
+    55% {
+      opacity: 00%;
+      display: none;
+    }
+    
+    60% {
+      opacity: 0%;
+      display: none;
+    }
+    65% {
+      opacity: 0;
+      display: none;
+    }
+    70% {
+      opacity: 90%;
+      display: block;
+    }
+    75% {
+      opacity: 100%;
+      display: block;
+    }
+    80% {
+      opacity: 100%;
+      display: block;
+    }
+    90% {
+      opacity: 100%;
+      display:block;
+    }
+    95% {
+      opacity: 50%;
+      display: block;
+    }
+    100% {
+      opacity: 0;
+      display: none;
+    }
+    
+  }
+  
+  body {
+    margin: 0 auto;
+  /*   width: 100vw; */
+    color: #F15B26;
+    background: #EEEEEE;
+    font-family: 'Josefin Sans', sans-serif;
+    max-width: 1200px;
+  /*   opacity: 0%; */
+  }
+  
+  .logo {
+    height: 35px;
+    width: 35px;
+    background-color: #ABABAB;
+    padding: 25px;
+    border-radius: 100%;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  /*   width: 100vw; */
+    border-bottom: 2pt solid #ababab;
+  /*   position: sticky;
+    top: 0; */
+    background: #EEEEEE;
+    text-align: center;
+    min-width: 325px;
+  }
+  
+  .container {
+    display: inline-block;
+    cursor: pointer;
+    background-color: #ABABAB;
+    padding: 10px;
+    border-radius: 2pt;
+  }
+  
+  .container:hover {
+    background-color: yellow;
+    transition: 2s;
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #F15B26;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+  
+  nav {
+    position: absolute;
+    top: 119px;
+    left: 70%;
+    display: inline-block;
+    width: 33vw;
+    max-width: 450px;
+    text-align: center;
+    background-color: #BCBCBC;
+  }
+  
+  nav a {
+    display: block;
+    padding: 10px;
+    outline: 1px #ABABAB solid;
+    color: #F15B26;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    background-color: cyan;
+    color: #111;
+  }
+  
+  main {
+        display: flex;
+       background: url("http://www.patmakesmusic.com/images2/jneckshot.png")no-repeat center;
+    background-size: cover;
+    min-height: 450px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2pt #ABABAB solid;
+  }
+  
+  .bottomContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 20px;
+    grid-template-areas:
+      "followAd followAd followAd followAd followAd followAd"
+      "twitch insta youtube fbook twitter soundcloud"
+      "copyright copyright copyright copyright copyright copyright";
+    text-align: center;
+    column-gap: 10px;
+  /*   border-top: 2pt solid #ABABAB; */
+  /*   max-width: 50vw; */
+    padding: 10px;
+    margin: 0 auto;
+  }
+  
+  .followAd {
+    font-size: 1.5em;
+    text-align: center;
+    grid-area: followAd;
+  }
+  
+  .followAd span {
+    color: #111;
+  /*   background: #323232; */
+    padding: 9px;
+    border-radius: 10pt;
+  }
+  
+  #twitch {
+    grid-area: twitch;
+    background: url("http://www.patmakesmusic.com/images2/twitch.svg") no-repeat;
+  }
+  #insta {
+    grid-area: insta;
+    background: url("http://www.patmakesmusic.com/images2/instalogo.svg") no-repeat;
+  }
+  #youtube {
+    grid-area: youtube;
+    background: url("http://www.patmakesmusic.com/images2/youtube.svg") no-repeat;
+  }
+  #fbook {
+    grid-area: fbook;
+    background: url("http://www.patmakesmusic.com/images2/facebookf.svg") no-repeat;
+  }
+  #twitter {
+    grid-area: twitter;
+    background: url("http://www.patmakesmusic.com/images2/twitter.svg") no-repeat;
+  }
+  #soundcloud {
+   grid-area: soundcloud;
+    background: url("http://www.patmakesmusic.com/images2/soundcloud.svg") no-repeat;
+  }
+  
+  .bottomContainer a:hover {
+    transform: rotate(360deg);
+    transition: 1s ease-in-out;
+  }
+  
+  #copyright {
+    grid-area: copyright;
+  }
+  
+  
+  
+  
+  
+  .news {
+  /*   color: cyan; */
+    margin: 20px;
+    padding: 10px;
+    background: #ABABABBB;
+     min-height: 225px;
+    min-width: 300px;
+    border-radius: 50%;
+    background-size: 100%;
+    text-align: center;
+  /*   display: flex;
+    justify-content: center;
+    align-items: top; */
+  }
+  .news a {
+    height: 200px;
+    width: 200px;
+  }
+  
+  .news h3 {
+    display: inline-block;
+    background: #111;
+    color: cyan;
+    position: relative;
+    top: -100px;
+    font-size: 2em;
+    padding: 20px;
+    border-radius: 50%;
+  }
+  
+  #news1 {
+    position: absolute;
+    background: url("http://www.patmakesmusic.com/images/noturgirlpropo.png") center no-repeat;
+    background-size: 100%;
+    animation-name: news1;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-direction: linear;
+    animation-iteration-count: infinite;
+  }
+  
+  #news2 {
+    position: absolute;
+    background: url("http://www.patmakesmusic.com/images/thatgumyoulikealbumart.png")no-repeat;
+    background-size: 100%;
+    background-position: 0 -70px;
+    animation-name: news2;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-direction: linear;
+    animation-iteration-count: infinite;
+  }
+  
+  #news3 {
+    position: absolute;
+    background: url("http://www.patmakesmusic.com/images2/cashboxImg.png")no-repeat;
+    background-size: 200%;
+    background-position: -100px -50px;
+    animation-name: news3;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-direction: linear;
+    animation-iteration-count: infinite;
+  }
+  
+  
+
+  .blog {
+    display: flex-wrap;
+    /* background: #323232; */
+    text-align: center;
+    /* margin-top: -20px; */
+  }
+  .blogpost {
+    text-align: left;
+    /* display: flex; */
+    background: #CECECE55;
+    /* margin: 75px 20px; */
+    border-radius: 5pt;
+    padding: 20px;
+    margin: 40px auto;
+    width: auto;
+    max-width: 800px;
+    line-height: 1.3;
+  }
+  
+  .blogImage {
+    width: auto;
+    max-width: 300px;
+    /* margin: 0 30%; */
+    border-radius: 5%;
+    padding: 10px;
+  }
+  .blogContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 1.6em;
+
+  }
+
+  h1 span {
+    color: #111;
+  }
+
+  h2 {
+    font-size: 1.8em;
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  h4 {
+    font-style: italic;
+    font-weight: 400;
+    color: #111;
+  }
+  
+  p {
+    color: #111;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.25em;
+    font-weight: lighter;
+  }
+
+  .youtubewrap {
+    display: flex;
+    justify-content: center;
+  }
+  .linkbuttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .linkbuttons button {
+    padding: 10px;
+    margin: 20px;
+    background-color: cyan;
+    color: #F15B26;
+    border: none;
+    border-radius: 5pt;
+  }
+
+  .linkbuttons button:hover {
+    background-color: yellow;
+    color: #111;
+    transition: 2s;
+  }
+
+  .biopic {
+    width: 40%;
+    position: relative;
+    
+  }
+
+  .quoteAttr {
+    text-align: right;
+    text-decoration: none;
+    color: #F15B26;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .linkholder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .linkholder a {
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: yellow;
+    text-decoration: none;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 20px;
+    /* display: inline; */
+  }
+  .kendalLink {
+    background: url(https://images.squarespace-cdn.com/content/v1/55eb240ce4b01fb4a6ecd3c5/1583256438675-I6M40E0LEUNFPNCXHZOE/ke17ZwdGBToddI8pDm48kLnSoccxg35QkxorAP-1ljlZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIHydQ2A4AEi65ARmsjzl1xP4tbV1LAy2UU2z2YdMBqoY/Screen+Shot+2020-03-03+at+10.26.39+AM.png?format=300w)center no-repeat;
+    background-size: 200%;
+  }
+  .blainLink {
+    background: url(http://torontojazz.com/sites/default/files/Brian%20Blain%2035b_WEB_250.jpg)center no-repeat;
+    background-size: 200%;
+  }
+  .filmmusicLink {
+    background: url("../images/composingfilmlink.png") center no-repeat;
+    background-size: 200%;
+  }
+
+  .drumslink {
+    background: url("../images/drumslinkpic.png")center no-repeat;
+    background-size: 100%;
+  }
+
+  .linkholder a:hover {
+    background: #F15B26;
+    color: cyan;
+    transition: 1.5s;
+  }
+
+  .frameholder {
+    display: flex;
+  flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .iframeBox {
+    display: grid;
+    margin: 30px auto;
+  }
+  .iframeCaption {
+    text-align: center;
+    padding: 10px;
+    border-radius: 5pt;
+    /* background-color: #F15B26;
+    color: cyan; */
+  }
+
+  @media only screen and (min-width: 900px) {
+    h1 {
+      font-size: 3em;
+    }
+    .followAd {
+      font-size: 2em;
+    }
+    .bottomContainer {
+      max-width: 50vw;
+    }
+    .blogImage {
+      margin-left: 100px;
+    }
+  }

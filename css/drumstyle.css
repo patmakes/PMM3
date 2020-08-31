@@ -1,0 +1,68 @@
+/* body {
+    margin: 0 auto;
+    background: #121212;
+    font-size: 1em;
+    
+  }
+  
+  
+  
+  h1 {
+    color: #fd9e6b;
+    font-family: "Major Mono Display", sans-serif;
+    text-decoration: none;
+    /*text-shadow: 3px 1px #CECECE;*/
+    /* font-size: 22pt;
+    padding: 5px;
+  } */
+  
+  header {
+  
+    border-bottom: none;
+  }
+
+  /* h1 span {
+    color: #ababab;
+    text-decoration: underline;
+  } */
+  
+  h2 {
+    font-size: 1.1em;
+    color: #111;
+    text-align: center;
+  } */
+  
+  main {
+    display: flex;
+    justify-items: center;
+    /*   width: 90%; */
+  /*   min-height: 1200px; */
+    min-height: 75vh;
+    background: #ABABAB;
+  }
+  
+  #drumMachine {
+    display: grid;
+    grid-template-columns: 85px 85px 85px 85px;
+    grid-template-rows: 85px 85px 85px 85px;
+    background-color: #323232;
+  /*   touchAction: none; */
+  /*   transform: rotate(180deg); */
+  }
+  
+  .drumpad {
+    height: 75px;
+    width: 75px;
+    margin: 7%;
+    background-color: #50c878ee;
+    background: radial-gradient(center, #50c878ee, #50c87822);
+    background: -webkit-radial-gradient(center, #50c878ee, #50c84455);
+    background: -moz-radial-gradient(center, #50c878ee, #50c84455);
+    border-radius: 4pt;
+  /*   touchAction: none; */
+  }
+  
+  .drumpad:active {
+    background-color: red;
+  }
+  
