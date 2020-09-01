@@ -3,7 +3,7 @@
   
     let nav = document.querySelector("nav");
 
-    let page = document.querySelector("main")
+    let page = document.querySelector("body")
   
   function cross() {
     hamburger.classList.toggle("change");
