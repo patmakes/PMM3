@@ -1,10 +1,10 @@
 // prevent default touch behaviour
 
-let body = document.querySelector("body");
+let body = document.querySelector("section");
 
 let drumMachine = document.getElementById("drumMachine")
 
-let mainElement = document.querySelector("main");
+let mainElement = document.getElementById("instrumentSection");
 
 
 function touchFix(event) {
@@ -54,7 +54,7 @@ while (index < 16) {
   index++;
 }
   for (let i = 0; i < 16; i++) {
-    sound.push(`http://www.patmakesmusic.com/sounds/drum/drumpad${i}.mp3`);
+    sound.push(`./sounds/drum/drumpad${i}.mp3`);
 
     let link = sound[i];
 

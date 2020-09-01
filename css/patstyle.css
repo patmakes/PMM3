@@ -419,6 +419,7 @@
     max-width: 450px;
     text-align: center;
     background-color: #BCBCBC;
+    z-index: 2;
   }
   
   nav a {
@@ -744,6 +745,7 @@
     /* background-color: #F15B26;
     color: cyan; */
   }
+
 
   @media only screen and (min-width: 900px) {
     h1 {
