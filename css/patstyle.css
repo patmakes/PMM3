@@ -416,8 +416,8 @@
   
   nav {
     position: absolute;
-    top: 119px;
-    left: 70%;
+    top: 110px;
+    left: 65%;
     display: inline-block;
     width: 33vw;
     max-width: 450px;
@@ -440,14 +440,18 @@
   }
   
   main {
-        display: flex;
-       background: url("http://www.patmakesmusic.com/images2/jneckshot.png")no-repeat center;
-    background-size: cover;
+    display: flex-wrap;
     min-height: 450px;
     text-align: center;
     justify-content: center;
     align-items: center;
     border-bottom: 2pt #ABABAB solid;
+  }
+
+  .frontpage {
+    background: url("http://www.patmakesmusic.com/images2/jneckshot.png")no-repeat center;
+    background-size: cover;
+    display: flex;
   }
   
   .bottomContainer {
@@ -512,11 +516,7 @@
   #copyright {
     grid-area: copyright;
   }
-  
-  
-  
-  
-  
+
   .news {
   /*   color: cyan; */
     margin: 20px;
