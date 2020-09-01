@@ -11,8 +11,8 @@
       
       opacity: 0%;
       display: block;
-      pointer-events: auto;
-      touch-action: auto;
+      pointer-events: none;
+      touch-action: none;
       
     }
     10% {
@@ -38,6 +38,7 @@
   /*     transform: translateX(50%); */
       display: block;
       pointer-events: auto;
+      touch-action: auto;
       
     }
     25% {
@@ -46,83 +47,98 @@
   /*     transform: translateX(50%); */
       display: block;
       pointer-events: auto;
+      touch-action: auto;
       
     }
     30% {
       opacity: 50%;
       display: block;
       pointer-events: auto;
+      touch-action: auto;
     }
     
     35% {
       opacity: 0%;
       display: none;
       pointer-events: none;
+      touch-action: none;
     }
     
     40% {
       opacity: 0%;
       display: none;
       pointer-events: none;
+      touch-action: none;
     }
     
     45% {
       opacity: 0%;
       display: none;
       pointer-events: none;
+      touch-action: none;
     }
     
     50% {
       opacity: 0%;
       display: none;
       pointer-events: none;
+      touch-action: none;
     }
     
     55% {
       opacity: 0%;
       display: none;
       pointer-events: none;
+      touch-action: none;
     }
     
     60% {
       opacity: 0%;
       display: none;
       pointer-events: none;
+      touch-action: none;
     }
     65% {
       opacity: 0;
       display: none;
       pointer-events: none;
+      touch-action: none;
     }
     70% {
       opacity: 0%;
       display: none;
       pointer-events: none;
+      touch-action: none;
     }
     75% {
       opacity: 00%;
       display: none;
       pointer-events: none;
+      touch-action: none;
     }
     80% {
       opacity: 00%;
       display: none;
       pointer-events: none;
+      touch-action: none;
     }
     90% {
       opacity: 00%;
       display: none;
       pointer-events: none;
+      touch-action: none;
     }
     95% {
       opacity: 0%;
       display: none;
       pointer-events: none;
+      touch-action: none;
     }
     100% {
       opacity: 0;
       display: none;
       pointer-events: none;
+      touch-action: none;
     }
   }
   
@@ -133,6 +149,7 @@
       opacity: 0%;
       display: none;
       pointer-events: none;
+      touch-action: none;
       
     }
     5% {
@@ -140,6 +157,7 @@
       opacity: 0%;
       display: none;
       pointer-events: none;
+      touch-action: none;
     }
     10% {
       
@@ -147,6 +165,7 @@
   /*     transform: translateX(-50%) */
       display:none;
       pointer-events: none;
+      touch-action: none;
     }
     15% {
       
@@ -154,12 +173,14 @@
   /*     transform: translateX(0%); */
       display:none;
       pointer-events: none;
+      touch-action: none;
     }
     20% {
       opacity: 00%;
   /*     transform: translateX(50%); */
       display:none;
       pointer-events: none;
+      touch-action: none;
     }
     25% {
       
@@ -167,17 +188,20 @@
   /*     transform: translateX(50%); */
       display:none;
       pointer-events: none;
+      touch-action: none;
     }
     30% {
       opacity: 0%;
       display:none;
       pointer-events: none;
+      touch-action: none;
     }
     
     35% {
       opacity: 0%;
       display:none;
       pointer-events: none;
+      touch-action: none;
       
     }
     
@@ -185,59 +209,77 @@
       opacity: 90%;
       display:block;
       pointer-events: auto;
+      touch-action: auto;
     }
     
     45% {
       opacity: 100%;
       display:block;
       pointer-events: auto;
+      touch-action: auto;
     }
     
     50% {
       opacity: 100%;
       display: block;
       pointer-events: auto;
+      touch-action: auto;
     }
     
     55% {
       opacity: 100%;
       display: block;
       pointer-events: auto;
+      touch-action: auto;
     }
     
     60% {
       opacity: 50%;
       display: block;
       pointer-events: auto;
+      touch-action: auto;
     }
     65% {
       opacity: 0;
       display: none;
       pointer-events: none;
+      touch-action: none;
     }
     70% {
       opacity: 0%;
+      display: none;
       pointer-events: none;
+      touch-action: none;
     }
     75% {
       opacity: 00%;
+      display: none;
       pointer-events: none;
+      touch-action: none;
     }
     80% {
       opacity: 00%;
+      display: none;
       pointer-events: none;
+      touch-action: none;
     }
     90% {
       opacity: 00%;
+      display: none;
       pointer-events: none;
+      touch-action: none;
     }
     95% {
       opacity: 0%;
+      display: none;
       pointer-events: none;
+      touch-action: none;
     }
     100% {
       opacity: 0;
+      display: none;
       pointer-events: none;
+      touch-action: none;
     }
     
   }
@@ -249,17 +291,22 @@
       opacity: 0%;
       pointer-events: none;
       display: none;
+      touch-action: none;
     }
     5% {
       
       opacity: 0%;
+      display: none;
       pointer-events: none;
+      touch-action: none;
       
     }
     10% {
       
       opacity: 0%;
       display: none;
+      pointer-events: none;
+      touch-action: none;
   /*     transform: translateX(-50%) */
       
     }
@@ -267,12 +314,16 @@
       
       opacity: 00%;
       display: none;
+      pointer-events: none;
+      touch-action: none;
   /*     transform: translateX(0%); */
       
     }
     20% {
       opacity: 00%;
       display: none;
+      pointer-events: none;
+      touch-action: none;
   /*     transform: translateX(50%); */
       
     }
@@ -280,71 +331,101 @@
       
       opacity: 00%;
       display: none;
+      pointer-events: none;
+      touch-action: none;
   /*     transform: translateX(50%); */
       
     }
     30% {
       opacity: 0%;
       display: none;
+      pointer-events: none;
+      touch-action: none;
       
     }
     
     35% {
       opacity: 0%;
       display: none;
+      pointer-events: none;
+      touch-action: none;
     }
     
     40% {
       opacity: 0%;
       display: none;
+      pointer-events: none;
+      touch-action: none;
     }
     
     45% {
       opacity: 00%;
       display: none;
+      pointer-events: none;
+      touch-action: none;
     }
     
     50% {
       opacity: 00%;
       display: none;
+      pointer-events: none;
+      touch-action: none;
     }
     
     55% {
       opacity: 00%;
       display: none;
+      pointer-events: none;
+      touch-action: none;
     }
     
     60% {
       opacity: 0%;
       display: none;
+      pointer-events: none;
+      touch-action: none;
     }
     65% {
       opacity: 0;
       display: none;
+      pointer-events: none;
+      touch-action: none;
     }
     70% {
       opacity: 90%;
       display: block;
+      pointer-events: auto;
+      touch-action: auto;
     }
     75% {
       opacity: 100%;
       display: block;
+      pointer-events: auto;
+      touch-action: auto;
     }
     80% {
       opacity: 100%;
       display: block;
+      pointer-events: auto;
+      touch-action: auto;
     }
     90% {
       opacity: 100%;
       display:block;
+      pointer-events: auto;
+      touch-action: auto;
     }
     95% {
       opacity: 50%;
       display: block;
+      pointer-events: auto;
+      touch-action: auto;
     }
     100% {
       opacity: 0;
       display: none;
+      pointer-events: none;
+      touch-action: none;
     }
     
   }
@@ -357,6 +438,7 @@
     font-family: 'Josefin Sans', sans-serif;
     max-width: 1200px;
   /*   opacity: 0%; */
+    /* padding: 5px; */
   }
   
   .logo {
@@ -588,6 +670,8 @@
     display: flex-wrap;
     /* background: #323232; */
     text-align: center;
+    justify-content: center;
+    align-items: center;
     /* margin-top: -20px; */
   }
   .blogpost {
@@ -605,7 +689,7 @@
   
   .blogImage {
     width: auto;
-    max-width: 300px;
+    max-width: 350px;
     /* margin: 0 30%; */
     border-radius: 5%;
     padding: 10px;
@@ -629,6 +713,7 @@
 
   h2 {
     font-size: 1.8em;
+    text-align: center;
   }
 
   h3 {
@@ -644,7 +729,7 @@
   p {
     color: #111;
     font-family: "Montserrat", sans-serif;
-    font-size: 1.25em;
+    font-size: 1.1em;
     font-weight: lighter;
   }
 
@@ -755,6 +840,9 @@
     h1 {
       font-size: 3em;
     }
+    h2 {
+      text-align: left;
+    }
     .followAd {
       font-size: 2em;
     }
@@ -763,5 +851,7 @@
     }
     .blogImage {
       margin-left: 100px;
+      max-width: 350px;
     }
+
   }
