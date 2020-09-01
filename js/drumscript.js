@@ -89,8 +89,9 @@ function playAudio0(event) {
   
  var sound0 = document.getElementById("sound0");
   
-  sound0.play(); 
+  sound0.currentTime=0;
   sound0.volume=1;
+  sound0.play();
   console.log(event);
 } 
 
@@ -98,8 +99,8 @@ function pauseAudio0(event) {
   
   event.preventDefault();
   
-  sound0.volume=0;
   sound0.pause();
+  sound0.volume=0;
   sound0.currentTime=0;
   console.log(event);
  
