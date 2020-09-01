@@ -4,6 +4,7 @@
       opacity: 0%;
       display: none;
       pointer-events: none;
+      touch-action: none;
       
     }
     5% {
@@ -11,6 +12,7 @@
       opacity: 0%;
       display: block;
       pointer-events: auto;
+      touch-action: auto;
       
     }
     10% {
@@ -19,6 +21,7 @@
   /*     transform: translateX(-50%) */
       display: block;
       pointer-events: auto;
+      touch-action: auto;
       
     }
     15% {
@@ -27,6 +30,7 @@
   /*     transform: translateX(0%); */
       display: block;
       pointer-events: auto;
+      touch-action: auto;
       
     }
     20% {

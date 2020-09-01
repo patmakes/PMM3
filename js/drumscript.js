@@ -1,23 +1,23 @@
 // prevent default touch behaviour
 
-let body = document.querySelector("section");
+// let body = document.querySelector("section");
 
 let drumMachine = document.getElementById("drumMachine")
 
-let mainElement = document.getElementById("instrumentSection");
+// let mainElement = document.getElementById("instrumentSection");
 
 
 function touchFix(event) {
   event.preventDefault()
 }
 
-body.addEventListener("touchstart", touchFix)
+// body.addEventListener("touchstart", touchFix)
 
-body.addEventListener("touchend", touchFix)
+// body.addEventListener("touchend", touchFix)
 
-body.addEventListener("touchmove", touchFix)
+// body.addEventListener("touchmove", touchFix)
 
-body.addEventListener("touchcancel", touchFix)
+// body.addEventListener("touchcancel", touchFix)
 
 drumMachine.addEventListener("touchstart", touchFix)
 
@@ -27,13 +27,13 @@ drumMachine.addEventListener("touchmove", touchFix)
 
 drumMachine.addEventListener("touchcancel", touchFix)
 
-mainElement.addEventListener("touchstart", touchFix)
+// mainElement.addEventListener("touchstart", touchFix)
 
-mainElement.addEventListener("touchend", touchFix)
+// mainElement.addEventListener("touchend", touchFix)
 
-mainElement.addEventListener("touchmove", touchFix)
+// mainElement.addEventListener("touchmove", touchFix)
 
-mainElement.addEventListener("touchcancel", touchFix)
+// mainElement.addEventListener("touchcancel", touchFix)
 
 main();
 
