@@ -3,7 +3,7 @@
   
     let nav = document.querySelector("nav");
 
-    let page = document.querySelector("header");
+    let page = document.querySelector("main");
   
   function cross() {
     hamburger.classList.toggle("change");
@@ -13,7 +13,7 @@
 
   function menuoff() {
 // hamburger.classList.remove("change");
-nav.classList.add("hidden");
+  nav.classList.add("hidden");
   };
 
   hamburger.addEventListener("click", cross);
