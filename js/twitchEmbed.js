@@ -13,7 +13,7 @@ var embed = new Twitch.Embed("twitch-embed", {
 
       var player = embed.getPlayer();
 
-        player.play();
+        // player.play();
   });
 
 //   var options = {
