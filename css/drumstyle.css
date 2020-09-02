@@ -34,7 +34,8 @@
   
   #instrumentSection {
     display: flex;
-    background: url(../images/jbodyshot.png);
+    background-color: #222222AA;
+    /* background: url(../images/jbodyshot.png); */
     background-size: cover;
     min-height: 450px;
     text-align: center;
@@ -53,6 +54,7 @@
   /*   touchAction: none; */
   /*   transform: rotate(180deg); */
     z-index: 1;
+    padding: 10px;
   }
   
   .drumpad {
