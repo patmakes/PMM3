@@ -1,23 +1,25 @@
+/* animation to show/hide new blog post links */
+
 @keyframes news1 {
     0% {
       display: none;
-      transform: translateX(-500px);
+      transform: translateX(-130vw);
       
     }
     5% {
       transform: translateX(0);
       display: block;
     }
-    20% {
+    25% {
       transform: translateX(0);
     }
-    25% {
-      transform: translateX(500px);
+    30% {
+      transform: translateX(-130vw);
       display: none;
 
     }
     100% {
-      transform: translateX(500px);
+      transform: translateX(-130vw);
       display: none;
     }
   }
@@ -26,24 +28,24 @@
     
     0% {
       display: none;
-      transform: translateX(-500px);
-    }
-    25% {
-      transform: translateX(-500px);
+      transform: translateX(-130vw);
     }
     30% {
+      transform: translateX(-130vw);
+    }
+    35% {
       display: block;
       transform: translate(0);
     }
-    45% {
+    55% {
       transform: translate(0)
     }
-    50% {
-      transform: translate(500px);
+    60% {
+      transform: translate(-130vw);
       display: none;
     }
     100% {
-      transform: translateX(500px);
+      transform: translateX(-130vw);
       display: none;
     }
 
@@ -53,29 +55,31 @@
   @keyframes news3 {
 
     0% {
+      transform: translateX(-130vw);
       display: none;
-      transform: translateX(-500px);
     }
-    50% {
+    60% {
+      transform: translateX(-130vw);
       display: none;
-      transform: translateX(-500px);
     }
-    55% {
+    65% {
       transform: translate(0);
     }
-    70% {
+    85% {
       transform: translate(0)
     }
-    75% {
-      transform: translate(500px);
+    90% {
+      transform: translate(-130vw);
       display: none;
     }
     100% {
-      transform: translateX(500px);
+      transform: translateX(-130vw);
       display: none;
     }
     
   }
+
+  /* main styles */
   
   body {
     margin: 0 auto;
@@ -109,6 +113,8 @@
     text-align: center;
     min-width: 325px;
   }
+
+  /* hamburger nav styles  */
   
   .container {
     display: inline-block;
@@ -167,6 +173,8 @@
     background-color: cyan;
     color: #111;
   }
+
+  /* hero and content styles  */
   
   main {
     display: flex-wrap;
@@ -182,6 +190,8 @@
     background-size: cover;
     display: flex;
   }
+
+  /* footer and social media link styles  */
   
   .bottomContainer {
     display: grid;
@@ -246,6 +256,8 @@
     grid-area: copyright;
   }
 
+  /* new blog stories styles  */
+
   .news {
   /*   color: cyan; */
     margin: 20px;
@@ -281,7 +293,7 @@
     background: url("http://www.patmakesmusic.com/images/noturgirlpropo.png") center no-repeat;
     background-size: 100%;
     animation-name: news1;
-    animation-duration: 25s;
+    animation-duration: 20s;
     animation-timing-function: linear;
     animation-direction: linear;
     animation-iteration-count: infinite;
@@ -293,7 +305,7 @@
     background-size: 100%;
     background-position: 0 -70px;
     animation-name: news2;
-    animation-duration: 25s;
+    animation-duration: 20s;
     animation-timing-function: linear;
     animation-direction: linear;
     animation-iteration-count: infinite;
@@ -305,13 +317,13 @@
     background-size: 200%;
     background-position: -100px -50px;
     animation-name: news3;
-    animation-duration: 25s;
+    animation-duration: 20s;
     animation-timing-function: linear;
     animation-direction: linear;
     animation-iteration-count: infinite;
   }
   
-  
+  /* blog page styles  */
 
   .blog {
     display: flex-wrap;
@@ -349,6 +361,8 @@
     width: auto;
   }
 
+/* font styles  */
+
   h1 {
     text-align: center;
     font-size: 1.6em;
@@ -380,6 +394,8 @@
     font-size: 1.1em;
     font-weight: lighter;
   }
+
+  /* flex link, collab pics, and youtube holder styles  */
 
   .youtubewrap {
     display: flex;
@@ -482,6 +498,8 @@
     /* background-color: #F15B26;
     color: cyan; */
   }
+
+  /* big screen media query */
 
 
   @media only screen and (min-width: 900px) {

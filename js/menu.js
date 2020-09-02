@@ -1,4 +1,6 @@
-
+// shows and hides the hidden nav, and crosses and uncrosses hamburger lines with its state 
+    
+    
     let hamburger = document.getElementById("hamburger");
   
     let nav = document.querySelector("nav");
