@@ -4,7 +4,6 @@
     0% {
       display: none;
       transform: translateX(-130vw);
-      
     }
     5% {
       transform: translateX(0);
@@ -83,13 +82,10 @@
   
   body {
     margin: 0 auto;
-  /*   width: 100vw; */
     color: #F15B26;
     background: #EEEEEE;
     font-family: 'Josefin Sans', sans-serif;
     max-width: 1200px;
-  /*   opacity: 0%; */
-    /* padding: 5px; */
   }
   
   .logo {
@@ -105,10 +101,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-  /*   width: 100vw; */
     border-bottom: 2pt solid #ababab;
-  /*   position: sticky;
-    top: 0; */
     background: #EEEEEE;
     text-align: center;
     min-width: 325px;
@@ -186,7 +179,7 @@
   }
 
   .frontpage {
-    background: url("http://www.patmakesmusic.com/images2/jneckshot.png")no-repeat center;
+    background: url("../images2/jneckshot.png")no-repeat center;
     background-size: cover;
     display: flex;
   }
@@ -203,8 +196,6 @@
       "copyright copyright copyright copyright copyright copyright";
     text-align: center;
     column-gap: 10px;
-  /*   border-top: 2pt solid #ABABAB; */
-  /*   max-width: 50vw; */
     padding: 10px;
     margin: 0 auto;
   }
@@ -217,34 +208,33 @@
   
   .followAd span {
     color: #111;
-  /*   background: #323232; */
     padding: 9px;
     border-radius: 10pt;
   }
   
   #twitch {
     grid-area: twitch;
-    background: url("http://www.patmakesmusic.com/images2/twitch.svg") no-repeat;
+    background: url("../images2/twitch.svg") no-repeat;
   }
   #insta {
     grid-area: insta;
-    background: url("http://www.patmakesmusic.com/images2/instalogo.svg") no-repeat;
+    background: url("../images2/instalogo.svg") no-repeat;
   }
   #youtube {
     grid-area: youtube;
-    background: url("http://www.patmakesmusic.com/images2/youtube.svg") no-repeat;
+    background: url("../images2/youtube.svg") no-repeat;
   }
   #fbook {
     grid-area: fbook;
-    background: url("http://www.patmakesmusic.com/images2/facebookf.svg") no-repeat;
+    background: url("../images2/facebookf.svg") no-repeat;
   }
   #twitter {
     grid-area: twitter;
-    background: url("http://www.patmakesmusic.com/images2/twitter.svg") no-repeat;
+    background: url("../images2/twitter.svg") no-repeat;
   }
   #soundcloud {
    grid-area: soundcloud;
-    background: url("http://www.patmakesmusic.com/images2/soundcloud.svg") no-repeat;
+    background: url("../images2/soundcloud.svg") no-repeat;
   }
   
   .bottomContainer a:hover {
@@ -256,10 +246,7 @@
     grid-area: copyright;
   }
 
-  /* new blog stories styles  */
-
   .news {
-  /*   color: cyan; */
     margin: 20px;
     padding: 10px;
     background: #ABABABBB;
@@ -268,9 +255,6 @@
     border-radius: 50%;
     background-size: 100%;
     text-align: center;
-  /*   display: flex;
-    justify-content: center;
-    align-items: top; */
   }
   .news a {
     height: 200px;
@@ -290,7 +274,7 @@
   
   #news1 {
     position: absolute;
-    background: url("http://www.patmakesmusic.com/images/noturgirlpropo.png") center no-repeat;
+    background: url("../images/noturgirlpropo.png") center no-repeat;
     background-size: 100%;
     animation-name: news1;
     animation-duration: 20s;
@@ -301,7 +285,7 @@
   
   #news2 {
     position: absolute;
-    background: url("http://www.patmakesmusic.com/images/thatgumyoulikealbumart.png")no-repeat;
+    background: url("../images/thatgumyoulikealbumart.png")no-repeat;
     background-size: 100%;
     background-position: 0 -70px;
     animation-name: news2;
@@ -313,7 +297,7 @@
   
   #news3 {
     position: absolute;
-    background: url("http://www.patmakesmusic.com/images2/cashboxImg.png")no-repeat;
+    background: url("../images2/cashboxImg.png")no-repeat;
     background-size: 200%;
     background-position: -100px -50px;
     animation-name: news3;
@@ -327,17 +311,13 @@
 
   .blog {
     display: flex-wrap;
-    /* background: #323232; */
     text-align: center;
     justify-content: center;
     align-items: center;
-    /* margin-top: -20px; */
   }
   .blogpost {
     text-align: left;
-    /* display: flex; */
     background: #CECECE55;
-    /* margin: 75px 20px; */
     border-radius: 5pt;
     padding: 20px;
     margin: 40px auto;
@@ -349,7 +329,6 @@
   .blogImage {
     width: auto;
     max-width: 300px;
-    /* margin: 0 30%; */
     border-radius: 5%;
     padding: 10px 10px 10px 25px;
     margin: 0 15px 25px 0;
@@ -454,14 +433,13 @@
     height: 150px;
     text-align: center;
     margin: 20px;
-    /* display: inline; */
   }
   .kendalLink {
     background: url(https://images.squarespace-cdn.com/content/v1/55eb240ce4b01fb4a6ecd3c5/1583256438675-I6M40E0LEUNFPNCXHZOE/ke17ZwdGBToddI8pDm48kLnSoccxg35QkxorAP-1ljlZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIHydQ2A4AEi65ARmsjzl1xP4tbV1LAy2UU2z2YdMBqoY/Screen+Shot+2020-03-03+at+10.26.39+AM.png?format=300w)center no-repeat;
     background-size: 200%;
   }
   .blainLink {
-    background: url(http://torontojazz.com/sites/default/files/Brian%20Blain%2035b_WEB_250.jpg)center no-repeat;
+    background: url(../images2/Brian-Blain.jpeg)center no-repeat;
     background-size: 200%;
   }
   .filmmusicLink {
@@ -495,8 +473,6 @@
     text-align: center;
     padding: 10px;
     border-radius: 5pt;
-    /* background-color: #F15B26;
-    color: cyan; */
   }
 
   /* big screen media query */
