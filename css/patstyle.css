@@ -1,431 +1,78 @@
 @keyframes news1 {
     0% {
-      
-      opacity: 0%;
       display: none;
-      pointer-events: none;
-      touch-action: none;
+      transform: translateX(-500px);
       
     }
     5% {
-      
-      opacity: 0%;
+      transform: translateX(0);
       display: block;
-      pointer-events: none;
-      touch-action: none;
-      
-    }
-    10% {
-      
-      opacity: 90%;
-  /*     transform: translateX(-50%) */
-      display: block;
-      pointer-events: auto;
-      touch-action: auto;
-      
-    }
-    15% {
-      
-      opacity: 100%;
-  /*     transform: translateX(0%); */
-      display: block;
-      pointer-events: auto;
-      touch-action: auto;
-      
     }
     20% {
-      opacity: 100%;
-  /*     transform: translateX(50%); */
-      display: block;
-      pointer-events: auto;
-      touch-action: auto;
-      
+      transform: translateX(0);
     }
     25% {
-      
-      opacity: 100%;
-  /*     transform: translateX(50%); */
-      display: block;
-      pointer-events: auto;
-      touch-action: auto;
-      
-    }
-    30% {
-      opacity: 50%;
-      display: block;
-      pointer-events: auto;
-      touch-action: auto;
-    }
-    
-    35% {
-      opacity: 0%;
+      transform: translateX(500px);
       display: none;
-      pointer-events: none;
-      touch-action: none;
-    }
-    
-    40% {
-      opacity: 0%;
-      display: none;
-      pointer-events: none;
-      touch-action: none;
-    }
-    
-    45% {
-      opacity: 0%;
-      display: none;
-      pointer-events: none;
-      touch-action: none;
-    }
-    
-    50% {
-      opacity: 0%;
-      display: none;
-      pointer-events: none;
-      touch-action: none;
-    }
-    
-    55% {
-      opacity: 0%;
-      display: none;
-      pointer-events: none;
-      touch-action: none;
-    }
-    
-    60% {
-      opacity: 0%;
-      display: none;
-      pointer-events: none;
-      touch-action: none;
-    }
-    65% {
-      opacity: 0;
-      display: none;
-      pointer-events: none;
-      touch-action: none;
-    }
-    70% {
-      opacity: 0%;
-      display: none;
-      pointer-events: none;
-      touch-action: none;
-    }
-    75% {
-      opacity: 00%;
-      display: none;
-      pointer-events: none;
-      touch-action: none;
-    }
-    80% {
-      opacity: 00%;
-      display: none;
-      pointer-events: none;
-      touch-action: none;
-    }
-    90% {
-      opacity: 00%;
-      display: none;
-      pointer-events: none;
-      touch-action: none;
-    }
-    95% {
-      opacity: 0%;
-      display: none;
-      pointer-events: none;
-      touch-action: none;
+
     }
     100% {
-      opacity: 0;
+      transform: translateX(500px);
       display: none;
-      pointer-events: none;
-      touch-action: none;
     }
   }
   
   @keyframes news2 {
     
     0% {
-      
-      opacity: 0%;
       display: none;
-      pointer-events: none;
-      touch-action: none;
-      
-    }
-    5% {
-      
-      opacity: 0%;
-      display: none;
-      pointer-events: none;
-      touch-action: none;
-    }
-    10% {
-      
-      opacity: 0%;
-  /*     transform: translateX(-50%) */
-      display:none;
-      pointer-events: none;
-      touch-action: none;
-    }
-    15% {
-      
-      opacity: 00%;
-  /*     transform: translateX(0%); */
-      display:none;
-      pointer-events: none;
-      touch-action: none;
-    }
-    20% {
-      opacity: 00%;
-  /*     transform: translateX(50%); */
-      display:none;
-      pointer-events: none;
-      touch-action: none;
+      transform: translateX(-500px);
     }
     25% {
-      
-      opacity: 00%;
-  /*     transform: translateX(50%); */
-      display:none;
-      pointer-events: none;
-      touch-action: none;
+      transform: translateX(-500px);
     }
     30% {
-      opacity: 0%;
-      display:none;
-      pointer-events: none;
-      touch-action: none;
+      display: block;
+      transform: translate(0);
     }
-    
-    35% {
-      opacity: 0%;
-      display:none;
-      pointer-events: none;
-      touch-action: none;
-      
-    }
-    
-    40% {
-      opacity: 90%;
-      display:block;
-      pointer-events: auto;
-      touch-action: auto;
-    }
-    
     45% {
-      opacity: 100%;
-      display:block;
-      pointer-events: auto;
-      touch-action: auto;
+      transform: translate(0)
     }
-    
     50% {
-      opacity: 100%;
-      display: block;
-      pointer-events: auto;
-      touch-action: auto;
-    }
-    
-    55% {
-      opacity: 100%;
-      display: block;
-      pointer-events: auto;
-      touch-action: auto;
-    }
-    
-    60% {
-      opacity: 50%;
-      display: block;
-      pointer-events: auto;
-      touch-action: auto;
-    }
-    65% {
-      opacity: 0;
+      transform: translate(500px);
       display: none;
-      pointer-events: none;
-      touch-action: none;
-    }
-    70% {
-      opacity: 0%;
-      display: none;
-      pointer-events: none;
-      touch-action: none;
-    }
-    75% {
-      opacity: 00%;
-      display: none;
-      pointer-events: none;
-      touch-action: none;
-    }
-    80% {
-      opacity: 00%;
-      display: none;
-      pointer-events: none;
-      touch-action: none;
-    }
-    90% {
-      opacity: 00%;
-      display: none;
-      pointer-events: none;
-      touch-action: none;
-    }
-    95% {
-      opacity: 0%;
-      display: none;
-      pointer-events: none;
-      touch-action: none;
     }
     100% {
-      opacity: 0;
+      transform: translateX(500px);
       display: none;
-      pointer-events: none;
-      touch-action: none;
     }
+
     
   }
   
   @keyframes news3 {
-    
+
     0% {
-      
-      opacity: 0%;
-      pointer-events: none;
       display: none;
-      touch-action: none;
+      transform: translateX(-500px);
     }
-    5% {
-      
-      opacity: 0%;
-      display: none;
-      pointer-events: none;
-      touch-action: none;
-      
-    }
-    10% {
-      
-      opacity: 0%;
-      display: none;
-      pointer-events: none;
-      touch-action: none;
-  /*     transform: translateX(-50%) */
-      
-    }
-    15% {
-      
-      opacity: 00%;
-      display: none;
-      pointer-events: none;
-      touch-action: none;
-  /*     transform: translateX(0%); */
-      
-    }
-    20% {
-      opacity: 00%;
-      display: none;
-      pointer-events: none;
-      touch-action: none;
-  /*     transform: translateX(50%); */
-      
-    }
-    25% {
-      
-      opacity: 00%;
-      display: none;
-      pointer-events: none;
-      touch-action: none;
-  /*     transform: translateX(50%); */
-      
-    }
-    30% {
-      opacity: 0%;
-      display: none;
-      pointer-events: none;
-      touch-action: none;
-      
-    }
-    
-    35% {
-      opacity: 0%;
-      display: none;
-      pointer-events: none;
-      touch-action: none;
-    }
-    
-    40% {
-      opacity: 0%;
-      display: none;
-      pointer-events: none;
-      touch-action: none;
-    }
-    
-    45% {
-      opacity: 00%;
-      display: none;
-      pointer-events: none;
-      touch-action: none;
-    }
-    
     50% {
-      opacity: 00%;
       display: none;
-      pointer-events: none;
-      touch-action: none;
+      transform: translateX(-500px);
     }
-    
     55% {
-      opacity: 00%;
-      display: none;
-      pointer-events: none;
-      touch-action: none;
-    }
-    
-    60% {
-      opacity: 0%;
-      display: none;
-      pointer-events: none;
-      touch-action: none;
-    }
-    65% {
-      opacity: 0;
-      display: none;
-      pointer-events: none;
-      touch-action: none;
+      transform: translate(0);
     }
     70% {
-      opacity: 90%;
-      display: block;
-      pointer-events: auto;
-      touch-action: auto;
+      transform: translate(0)
     }
     75% {
-      opacity: 100%;
-      display: block;
-      pointer-events: auto;
-      touch-action: auto;
-    }
-    80% {
-      opacity: 100%;
-      display: block;
-      pointer-events: auto;
-      touch-action: auto;
-    }
-    90% {
-      opacity: 100%;
-      display:block;
-      pointer-events: auto;
-      touch-action: auto;
-    }
-    95% {
-      opacity: 50%;
-      display: block;
-      pointer-events: auto;
-      touch-action: auto;
+      transform: translate(500px);
+      display: none;
     }
     100% {
-      opacity: 0;
+      transform: translateX(500px);
       display: none;
-      pointer-events: none;
-      touch-action: none;
     }
     
   }
@@ -634,7 +281,7 @@
     background: url("http://www.patmakesmusic.com/images/noturgirlpropo.png") center no-repeat;
     background-size: 100%;
     animation-name: news1;
-    animation-duration: 30s;
+    animation-duration: 25s;
     animation-timing-function: linear;
     animation-direction: linear;
     animation-iteration-count: infinite;
@@ -646,7 +293,7 @@
     background-size: 100%;
     background-position: 0 -70px;
     animation-name: news2;
-    animation-duration: 30s;
+    animation-duration: 25s;
     animation-timing-function: linear;
     animation-direction: linear;
     animation-iteration-count: infinite;
@@ -658,7 +305,7 @@
     background-size: 200%;
     background-position: -100px -50px;
     animation-name: news3;
-    animation-duration: 30s;
+    animation-duration: 25s;
     animation-timing-function: linear;
     animation-direction: linear;
     animation-iteration-count: infinite;
