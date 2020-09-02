@@ -475,6 +475,13 @@
     border-radius: 5pt;
   }
 
+  #twitchcont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #222222DD;
+  }
+
   /* big screen media query */
 
 
