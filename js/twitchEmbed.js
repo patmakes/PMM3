@@ -17,11 +17,11 @@ var embed = new Twitch.Embed("twitch-embed", {
 
         // player.play();
 
-        if (Twitch.Player.ONLINE) {
-            twitchcontainer.classList.remove("hidden")
+        if (Twitch.Player.OFFLINE) {
+            twitchcontainer.classList.add("hidden")
         }
         else {
-            twitchcontainer.classList.add("hidden")
+            twitchcontainer.classList.remove("hidden")
         };
 
 
