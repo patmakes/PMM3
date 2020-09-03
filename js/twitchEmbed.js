@@ -21,19 +21,20 @@ var embed = new Twitch.Embed("twitch-embed", {
 
   function ShowHide() {
 
-        let player = document.getElementById("twitch-embed");
+        let twitchEmbed = document.getElementById("twitch-embed");
 
         var streamstatus = embed.getEnded();
 
-        console.log(getEnded());
+        console.log(streamstatus.valueOf());
 
     if ((Twitch.Player.OFFLINE)) {
         twitchcontainer.classList.add("hidden");
-        twitchcontainer.classList.add("hidden");
+        twitchEmbed.classList.add("hidden");
         console.log("hide");
     }
     else {
-        twitchcontainer.classList.remove("hidden")
+        twitchcontainer.classList.remove("hidden");
+        twitchEmbed.classList.add("hidden");
         console.log("show");
     };
 
