@@ -17,15 +17,24 @@ var embed = new Twitch.Embed("twitch-embed", {
 
         player.play();
 
-        if ((Twitch.Player.OFFLINE)) {
-            twitchcontainer.classList.add("hidden");
-            console.log("hide");
-        }
-        else {
-            twitchcontainer.classList.remove("hidden")
-            console.log("show");
-        };
-
-
   });
+
+  function ShowHide() {
+
+        var stream = embed.getEnded();
+
+        console.log(getEnded());
+
+    if ((Twitch.Player.OFFLINE)) {
+        twitchcontainer.classList.add("hidden");
+        console.log("hide");
+    }
+    else {
+        twitchcontainer.classList.remove("hidden")
+        console.log("show");
+    };
+
+    ShowHide();
+
+  }
 
