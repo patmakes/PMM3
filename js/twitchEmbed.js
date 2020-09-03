@@ -1,5 +1,7 @@
 let twitchcontainer = document.getElementById("twitchcont");
 
+let twitchEmbed = document.getElementById("twitch-embed");
+
 var embed = new Twitch.Embed("twitch-embed", {
     width: 350,
     height: 197,
@@ -19,26 +21,31 @@ var embed = new Twitch.Embed("twitch-embed", {
 
   });
 
+  embed.addEventListener(Twitch.Embed.OFFLINE, function() {
+    twitchcontainer.classList.add("hidden");
+    twitchEmbed.classList.add("hidden");
+    console.log("hide");
+  });
+
+  embed.addEventListener(Twitch.Embed.ONLINE, function() {
+    twitchcontainer.classList.add("hidden");
+    twitchEmbed.classList.add("hidden");
+    console.log("hide");
+  });
+
+ 
+
+  var streamstatus = embed.getEnded();
+
+  let cond = streamstatus.valueOf();
+
+  console.log(streamstatus.valueOf());
+
   function ShowHide() {
+  };
 
-        let twitchEmbed = document.getElementById("twitch-embed");
 
-        var streamstatus = embed.getEnded();
-
-        console.log(streamstatus.valueOf());
-
-    if ((Twitch.Player.OFFLINE)) {
-        twitchcontainer.classList.add("hidden");
-        twitchEmbed.classList.add("hidden");
-        console.log("hide");
-    }
-    else {
-        twitchcontainer.classList.remove("hidden");
-        twitchEmbed.classList.add("hidden");
-        console.log("show");
-    };
-
-    ShowHide();
-
-  }
-
+// else {
+//   twitchcontainer.classList.remove("hidden");
+//   twitchEmbed.classList.remove("hidden");
+//   console.log("show");
