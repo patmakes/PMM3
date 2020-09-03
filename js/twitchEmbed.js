@@ -28,9 +28,9 @@ var embed = new Twitch.Embed("twitch-embed", {
   });
 
   embed.addEventListener(Twitch.Embed.ONLINE, function() {
-    twitchcontainer.classList.add("hidden");
-    twitchEmbed.classList.add("hidden");
-    console.log("hide");
+    twitchcontainer.classList.remove("hidden");
+    twitchEmbed.classList.remove("hidden");
+    console.log("show");
   });
 
  
