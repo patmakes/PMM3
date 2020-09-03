@@ -18,10 +18,12 @@ var embed = new Twitch.Embed("twitch-embed", {
         player.play();
 
         if ((Twitch.Player.OFFLINE)) {
-            twitchcontainer.classList.add("hidden")
+            twitchcontainer.classList.add("hidden");
+            console.log("hide");
         }
         else {
             twitchcontainer.classList.remove("hidden")
+            console.log("show");
         };
 
 
