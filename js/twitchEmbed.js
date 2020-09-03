@@ -1,3 +1,5 @@
+let twitchcontainer = document.getElementById("twitchcont");
+
 var embed = new Twitch.Embed("twitch-embed", {
     width: 854,
     height: 480,
@@ -14,13 +16,14 @@ var embed = new Twitch.Embed("twitch-embed", {
       var player = embed.getPlayer();
 
         // player.play();
+
+        if (Twitch.Player.ONLINE) {
+            twitchcontainer.classList.remove("hidden")
+        }
+        else {
+            twitchcontainer.classList.add("hidden")
+        };
+
+
   });
 
-//   var options = {
-//     width: 854,
-//     height: 480,
-//     channel: "patmakesmusic",
-//     // only needed if your site is also embedded on embed.example.com and othersite.example.com 
-//     // parent: ["embed.example.com", "othersite.example.com"]
-//   };
-  
