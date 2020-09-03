@@ -1,8 +1,8 @@
 let twitchcontainer = document.getElementById("twitchcont");
 
 var embed = new Twitch.Embed("twitch-embed", {
-    width: 854,
-    height: 480,
+    width: 350,
+    height: 197,
     channel: "patmakesmusic",
     layout: "video",
     autoplay: false,
@@ -15,17 +15,20 @@ var embed = new Twitch.Embed("twitch-embed", {
 
       var player = embed.getPlayer();
 
-        player.play();
+        // player.play();
 
   });
 
   function ShowHide() {
 
-        var stream = embed.getEnded();
+        let player = document.getElementById("twitch-embed");
+
+        var streamstatus = embed.getEnded();
 
         console.log(getEnded());
 
     if ((Twitch.Player.OFFLINE)) {
+        twitchcontainer.classList.add("hidden");
         twitchcontainer.classList.add("hidden");
         console.log("hide");
     }

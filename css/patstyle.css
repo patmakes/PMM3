@@ -480,6 +480,11 @@
     justify-content: center;
     align-items: center;
     background: #222222DD;
+    width: auto;
+  }
+
+  #twitch-embed {
+    margin: 20px
   }
 
   /* big screen media query */
@@ -502,5 +507,6 @@
       margin-left: 100px;
       max-width: 350px;
     }
+  
 
   }
