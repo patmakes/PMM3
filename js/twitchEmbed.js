@@ -15,9 +15,9 @@ var embed = new Twitch.Embed("twitch-embed", {
 
       var player = embed.getPlayer();
 
-        // player.play();
+        player.play();
 
-        if (Twitch.Player.OFFLINE) {
+        if ((Twitch.Player.OFFLINE)) {
             twitchcontainer.classList.add("hidden")
         }
         else {
