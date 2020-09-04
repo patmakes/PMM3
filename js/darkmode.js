@@ -72,18 +72,31 @@ function darkmode() {
       logo.classList.remove("logo-darkmode");
       followAd.classList.remove("followAd-darkmode");
       twitpic.classList.remove("twitch-darkmode");
+      twitpic.classList.add("twitch-lightmode")
       insta.classList.remove("insta-darkmode");
+      insta.classList.add("insta-lightmode")
       youtube.classList.remove("youtube-darkmode");
+      youtube.classList.add("youtube-lightmode")
       fbook.classList.remove("fbook-darkmode");
+      fbook.classList.add("fbook-lightmode")
       twitter.classList.remove("twitter-darkmode");
+      twitter.classList.add("twitter-lightmode")
       soundcloud.classList.remove("soundcloud-darkmode");
+      soundcloud.classList.add("soundcloud-lightmode")
       footie.classList.remove("main-darkmode");
+      footie.classList.add("main-lightmode")
+
+      var x = document.querySelectorAll("p, h4");
+        var i;
+
+        var b = document.querySelectorAll(".blogpost");
+        var y;
 
       for (i = 0; i < x.length; i++) {
         x[i].style.color = "#111";
       }
-      for (c = 0; c < z.length; c++) {
-        z[c].style.color = "#111";
+      for (y = 0; y < b.length; y++) {
+        b[y].style.backgroundColor = "#ABABAB44";
       }
 
       h1span.classList.remove("blogtitle-darkmode");

@@ -121,7 +121,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    /* border-bottom: 2pt solid #ababab; */
+    border-bottom: 2pt solid #ababab;
     background: #EEEEEE;
     text-align: center;
     width: auto;
@@ -148,13 +148,13 @@
   }
   
   .container:hover {
-    background-color: yellow;
+    background-color: cyan;
     transition: 2s;
   }
 
-  .container-darkmode:hover {
+  /* .container-darkmode:hover {
     background-color: #F15B26;
-  }
+  } */
   
   .bar1, .bar2, .bar3 {
     width: 35px;
@@ -238,8 +238,8 @@
 
   /* footer and social media link styles  */
 
-  footer {
-    border-top: 2pt #ABABAB solid;;
+  .main-lightmode {
+    border-top: 2pt #ABABAB solid;
   }
   .main-darkmode {
     border-top: 2pt #323232 solid;
@@ -277,6 +277,8 @@
   
   .twitch {
     grid-area: twitch;
+  }
+  .twitch-lightmode {
     background: url("../images2/twitch.svg") no-repeat;
   }
   .twitch-darkmode {
@@ -284,6 +286,8 @@
   }
   .insta {
     grid-area: insta;
+  }
+  .insta-lightmode {
     background: url("../images2/instalogo.svg") no-repeat;
   }
   .insta-darkmode {
@@ -291,6 +295,8 @@
   }
   .youtube {
     grid-area: youtube;
+  }
+  .youtube-lightmode {
     background: url("../images2/youtube.svg") no-repeat;
   }
   .youtube-darkmode {
@@ -298,6 +304,8 @@
   }
   .fbook {
     grid-area: fbook;
+  }
+  .fbook-lightmode {
     background: url("../images2/facebookf.svg") no-repeat;
   }
   .fbook-darkmode {
@@ -305,6 +313,8 @@
   }
   .twitter {
     grid-area: twitter;
+  }
+  .twitter-lightmode {
     background: url("../images2/twitter.svg") no-repeat;
   }
   .twitter-darkmode {
@@ -312,6 +322,8 @@
   }
   .soundcloud {
    grid-area: soundcloud;
+  }
+  .soundcloud-lightmode {
     background: url("../images2/soundcloud.svg") no-repeat;
   }
   .soundcloud-darkmode {
