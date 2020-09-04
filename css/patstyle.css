@@ -124,7 +124,8 @@
     /* border-bottom: 2pt solid #ababab; */
     background: #EEEEEE;
     text-align: center;
-    min-width: 325px;
+    width: auto;
+    /* min-width: 325px; */
   }
 
   .header-darkmode {
@@ -224,6 +225,7 @@
     text-align: center;
     justify-content: center;
     align-items: center;
+    width: 100vw;
   }
 
   .frontpage {
@@ -420,6 +422,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    /* margin-left: 10vw; */
     width: auto;
   }
 
