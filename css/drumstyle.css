@@ -10,21 +10,17 @@
   
   h2 {
     font-size: 1.1em;
-    color: #111;
     text-align: center;
   } 
   
   #instrumentSection {
     display: flex;
     background-color: #222222AA;
-    /* background: url(../images/jbodyshot.png); */
     background-size: cover;
     min-height: 450px;
     text-align: center;
     justify-content: center;
     align-items: center;
-    border-bottom: 2pt #ABABAB solid;
-    border-top: 2pt #ABABAB solid;
   }
   
   #drumMachine {
@@ -33,8 +29,6 @@
     grid-template-rows: 85px 85px 85px 85px;
     background-color: #323232;
     transform: rotate(180deg);
-  /*   touchAction: none; */
-  /*   transform: rotate(180deg); */
     z-index: 1;
     padding: 10px;
   }
@@ -48,7 +42,6 @@
     background: -webkit-radial-gradient(center, cyan, #50c84455);
     background: -moz-radial-gradient(center, #50c878ee, #50c84455);
     border-radius: 4pt;
-  /*   touchAction: none; */
   }
   
   .drumpad:active {

@@ -87,13 +87,33 @@
     font-family: 'Josefin Sans', sans-serif;
     max-width: 1200px;
   }
+
+  .light-theme {
+
+    color: #F15B26;
+    background: #EEEEEE;
+
+  }
+
+  .dark-theme {
+
+    color: yellow;
+    background: #111;
+
+  }
   
   .logo {
-    height: 35px;
-    width: 35px;
-    background-color: #ABABAB;
-    padding: 25px;
+    height: 70px;
+    width: 70px;
+    /* background-color: #ABABAB; */
+    /* background: url("images2/jbasshero.png"); */
+    /* padding: 25px; */
     border-radius: 100%;
+    border: 3pt solid #ABABAB;
+  }
+
+  .logo-darkmode {
+    border: 3pt solid #323232;
   }
   
   header {
@@ -101,10 +121,15 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    border-bottom: 2pt solid #ababab;
+    /* border-bottom: 2pt solid #ababab; */
     background: #EEEEEE;
     text-align: center;
     min-width: 325px;
+  }
+
+  .header-darkmode {
+    border-bottom: 2pt solid #323232;
+    background: #111;
   }
 
   /* hamburger nav styles  */
@@ -116,10 +141,18 @@
     padding: 10px;
     border-radius: 2pt;
   }
+
+  .container-darkmode {
+    background-color: #323232;
+  }
   
   .container:hover {
     background-color: yellow;
     transition: 2s;
+  }
+
+  .container-darkmode:hover {
+    background-color: #F15B26;
   }
   
   .bar1, .bar2, .bar3 {
@@ -128,6 +161,10 @@
     background-color: #F15B26;
     margin: 6px 0;
     transition: 0.4s;
+  }
+
+  .bar-darkmode {
+    background-color: yellow;
   }
   
   .change .bar1 {
@@ -167,6 +204,18 @@
     color: #111;
   }
 
+  .dark-nav-theme {
+    color: yellow;
+    background-color: #323232;
+  }
+
+  .dark-nav-theme a {
+    color: yellow;
+    background-color: #323232;
+  }
+
+
+
   /* hero and content styles  */
   
   main {
@@ -175,7 +224,6 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-    border-bottom: 2pt #ABABAB solid;
   }
 
   .frontpage {
@@ -184,7 +232,16 @@
     display: flex;
   }
 
+  
+
   /* footer and social media link styles  */
+
+  footer {
+    border-top: 2pt #ABABAB solid;;
+  }
+  .main-darkmode {
+    border-top: 2pt #323232 solid;
+  }
   
   .bottomContainer {
     display: grid;
@@ -211,30 +268,52 @@
     padding: 9px;
     border-radius: 10pt;
   }
+
+  .followAd-darkmode span {
+    color: #EEEEEE;
+  }
   
-  #twitch {
+  .twitch {
     grid-area: twitch;
     background: url("../images2/twitch.svg") no-repeat;
   }
-  #insta {
+  .twitch-darkmode {
+    background: url("../images2/twitch-darkmode.svg") no-repeat;
+  }
+  .insta {
     grid-area: insta;
     background: url("../images2/instalogo.svg") no-repeat;
   }
-  #youtube {
+  .insta-darkmode {
+    background: url("../images2/instalogo-darkmode.svg") no-repeat;
+  }
+  .youtube {
     grid-area: youtube;
     background: url("../images2/youtube.svg") no-repeat;
   }
-  #fbook {
+  .youtube-darkmode {
+    background: url("../images2/youtube-darkmode.svg") no-repeat;
+  }
+  .fbook {
     grid-area: fbook;
     background: url("../images2/facebookf.svg") no-repeat;
   }
-  #twitter {
+  .fbook-darkmode {
+    background: url("../images2/facebookf-darkmode.svg") no-repeat;
+  }
+  .twitter {
     grid-area: twitter;
     background: url("../images2/twitter.svg") no-repeat;
   }
-  #soundcloud {
+  .twitter-darkmode {
+    background: url("../images2/twitter-darkmode.svg") no-repeat;
+  }
+  .soundcloud {
    grid-area: soundcloud;
     background: url("../images2/soundcloud.svg") no-repeat;
+  }
+  .soundcloud-darkmode {
+    background: url("../images2/soundcloud-darkmode.svg") no-repeat;
   }
   
   .bottomContainer a:hover {
@@ -253,6 +332,7 @@
      min-height: 225px;
     min-width: 300px;
     border-radius: 50%;
+    border: 3pt solid #323232;
     background-size: 100%;
     text-align: center;
   }
@@ -325,13 +405,16 @@
     max-width: 800px;
     line-height: 1.3;
   }
+  .blogpost-darkmode {
+    background-color: #323232;
+  }
   
   .blogImage {
     width: auto;
     max-width: 300px;
-    border-radius: 5%;
     padding: 10px 10px 10px 25px;
     margin: 0 15px 25px 0;
+    /* border-radius: 5%; */
   }
   .blogContainer {
     display: flex;
@@ -345,11 +428,16 @@
   h1 {
     text-align: center;
     font-size: 1.6em;
+    margin: 5px;
 
   }
 
   h1 span {
     color: #111;
+  }
+
+  .blogtitle-darkmode {
+    color: #EEEEEE;
   }
 
   h2 {
@@ -372,6 +460,10 @@
     font-family: "Montserrat", sans-serif;
     font-size: 1.1em;
     font-weight: lighter;
+  }
+
+  .pdarkmode {
+    color: #EEE;
   }
 
   /* flex link, collab pics, and youtube holder styles  */
@@ -487,6 +579,19 @@
     margin: 0px 2px
   }
 
+  .blogpost-darkmode {
+    background-color: #323232;
+    color: #EEE;
+  }
+
+  .text-darkmode {
+    color: #EEE;
+  }
+
+  .instInstructions {
+    text-align: center;
+  }
+
   /* big screen media query */
 
 
@@ -506,6 +611,10 @@
     .blogImage {
       margin-left: 100px;
       max-width: 350px;
+    }
+    .logo {
+      height: 130px;
+      width:130px;
     }
   
 
