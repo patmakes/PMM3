@@ -225,7 +225,7 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-    width: 100vw;
+    width: 100%;
   }
 
   .frontpage {
@@ -583,15 +583,17 @@
   }
 
   #twitchcont {
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     background: #222222DD;
     width: auto;
   }
 
   #twitch-embed {
-    margin: 0px 2px
+    margin: 0px 2px;
+    width: auto;
+    height: auto;
   }
 
   .blogpost-darkmode {

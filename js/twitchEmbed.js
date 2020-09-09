@@ -3,8 +3,8 @@ let twitchcontainer = document.getElementById("twitchcont");
 let twitchEmbed = document.getElementById("twitch-embed");
 
 var embed = new Twitch.Embed("twitch-embed", {
-    width: "370",
-    height: "208",
+    width: "100%",
+    height: "414",
     channel: "patmakesmusic",
     layout: "video",
     autoplay: false,
