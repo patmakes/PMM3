@@ -589,6 +589,9 @@
     background: #222222DD;
     width: auto;
     /* max-width: 800px; */
+    text-align: center;
+    min-height: 420px;
+    font-size: 3em;
   }
 
   #twitch-embed {
