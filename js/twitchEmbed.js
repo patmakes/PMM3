@@ -9,7 +9,7 @@ var embed = new Twitch.Embed("twitch-embed", {
     layout: "video",
     autoplay: false,
     // only needed if your site is also embedded on embed.example.com and othersite.example.com 
-    parent: String["pages.git.generalassemb.ly/patmakes/patMakesMusic/index.html"]
+    parent: String["pages.git.generalassemb.ly/patmakes/patMakesMusic/live.html"]
   });
 
   embed.addEventListener(Twitch.Embed.VIDEO_READY, function() {
@@ -22,13 +22,13 @@ var embed = new Twitch.Embed("twitch-embed", {
   });
 
   embed.addEventListener(Twitch.Embed.OFFLINE, function() {
-    twitchcontainer.classList.add("hidden");
+    twitchcontainer.innerHTML = "Be back soon!";
     twitchEmbed.classList.add("hidden");
     console.log("hide");
   });
 
   embed.addEventListener(Twitch.Embed.ONLINE, function() {
-    twitchcontainer.classList.remove("hidden");
+    // twitchcontainer.classList.remove("hidden");
     twitchEmbed.classList.remove("hidden");
     console.log("show");
   });
