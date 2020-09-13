@@ -23,12 +23,13 @@ var embed = new Twitch.Embed("twitch-embed", {
 
   embed.addEventListener(Twitch.Embed.OFFLINE, function() {
     twitchcontainer.innerHTML = "Be back soon!";
+    twitchcontainer.classList.add("twitchcontHidden")
     twitchEmbed.classList.add("hidden");
     console.log("hide");
   });
 
   embed.addEventListener(Twitch.Embed.ONLINE, function() {
-    // twitchcontainer.classList.remove("hidden");
+    twitchcontainer.classList.remove("twitchcontHidden")
     twitchEmbed.classList.remove("hidden");
     console.log("show");
   });

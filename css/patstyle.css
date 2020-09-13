@@ -583,15 +583,18 @@
   }
 
   #twitchcont {
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
     background: #222222DD;
     width: auto;
     /* max-width: 800px; */
     text-align: center;
     min-height: 420px;
     font-size: 3em;
+  }
+
+  .twitchcontHidden {
+     display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   #twitch-embed {
