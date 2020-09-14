@@ -9,7 +9,7 @@ var embed = new Twitch.Embed("twitch-embed", {
     layout: "video",
     autoplay: false,
     // only needed if your site is also embedded on embed.example.com and othersite.example.com 
-    parent: String["pages.git.generalassemb.ly/patmakes/patMakesMusic/live.html"]
+    parent: String["https://www.patmakesmusic.com/live.html"]
   });
 
   embed.addEventListener(Twitch.Embed.VIDEO_READY, function() {
@@ -32,6 +32,7 @@ var embed = new Twitch.Embed("twitch-embed", {
     twitchcontainer.classList.remove("twitchcontHidden")
     twitchEmbed.classList.remove("hidden");
     console.log("show");
+    twitchcontainer.innerHTML = "";
   });
 
  
