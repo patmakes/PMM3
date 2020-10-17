@@ -121,7 +121,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    border-bottom: 2pt solid #ababab;
+    /* border-bottom: 2pt solid #ababab; */
     background: #EEEEEE;
     text-align: center;
     width: auto;
@@ -239,10 +239,10 @@
   /* footer and social media link styles  */
 
   .main-lightmode {
-    border-top: 2pt #ABABAB solid;
+    /* border-top: 2pt #ABABAB solid; */
   }
   .main-darkmode {
-    border-top: 2pt #323232 solid;
+    /* border-top: 2pt #323232 solid; */
   }
   
   .bottomContainer {
@@ -418,7 +418,7 @@
     background: #CECECE55;
     border-radius: 5pt;
     padding: 20px;
-    margin: 40px auto;
+    margin: 5px auto 100px auto;
     width: auto;
     max-width: 800px;
     line-height: 1.4;
@@ -479,6 +479,7 @@
     font-family: "Montserrat", sans-serif;
     font-size: 1.2em;
     font-weight: lighter;
+    text-indent: 1.5em;
   }
 
   .pdarkmode {
