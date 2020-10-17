@@ -409,6 +409,9 @@
     justify-content: center;
     align-items: center;
   }
+  .blog a {
+    color: cyan;
+  }
   .blogpost {
     text-align: left;
     background: #CECECE55;
@@ -417,7 +420,7 @@
     margin: 40px auto;
     width: auto;
     max-width: 800px;
-    line-height: 1.3;
+    line-height: 1.4;
   }
   .blogpost-darkmode {
     background-color: #323232;
@@ -473,7 +476,7 @@
   p {
     color: #111;
     font-family: "Montserrat", sans-serif;
-    font-size: 1.1em;
+    font-size: 1.2em;
     font-weight: lighter;
   }
 
@@ -510,6 +513,7 @@
   .biopic {
     width: 40%;
     position: relative;
+    margin: 15px;
     
   }
 
@@ -567,14 +571,20 @@
 
   .frameholder {
     display: flex;
-  flex-wrap: wrap;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
   }
 
   .iframeBox {
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     margin: 30px auto;
+    justify-content: center;
+    align-items: center;
+  }
+  .iframeBox iframe {
+    margin: 20px;
   }
   .iframeCaption {
     text-align: center;
@@ -633,7 +643,7 @@
       max-width: 50vw;
     }
     .blogImage {
-      margin-left: 100px;
+      margin-left: 80px;
       max-width: 350px;
     }
     .logo {
