@@ -411,6 +411,7 @@
   }
   .blog a {
     color: lightseagreen;
+    text-decoration: none;
   }
   .blogpost {
     text-align: left;
