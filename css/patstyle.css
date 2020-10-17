@@ -238,12 +238,12 @@
 
   /* footer and social media link styles  */
 
-  .main-lightmode {
+  /* .main-lightmode {
     /* border-top: 2pt #ABABAB solid; */
-  }
-  .main-darkmode {
+  /* } */
+  /* .main-darkmode {
     /* border-top: 2pt #323232 solid; */
-  }
+  /* } */
   
   .bottomContainer {
     display: grid;
