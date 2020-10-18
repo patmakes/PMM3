@@ -129,7 +129,7 @@
   }
 
   .header-darkmode {
-    border-bottom: 2pt solid #323232;
+    /* border-bottom: 2pt solid #323232; */
     background: #111;
   }
 
