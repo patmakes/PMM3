@@ -379,6 +379,7 @@
     text-align: center;
     justify-content: center;
     align-items: center;
+    width: 100%;
   }
   .blog a {
     color: lightseagreen;
@@ -390,7 +391,7 @@
     border-radius: 5pt;
     padding: 20px;
     margin: 5px auto 100px auto;
-    width: auto;
+    width: 80%;
     max-width: 800px;
     line-height: 1.4;
   }
@@ -402,7 +403,7 @@
     width: auto;
     max-width: 300px;
     padding: 10px 10px 10px 25px;
-    margin: 0 15px 25px 0;
+    /* margin: 0 15px 25px 0; */
     /* border-radius: 5%; */
   }
   .blogContainer {
