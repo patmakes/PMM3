@@ -3,14 +3,14 @@ function darkmode() {
     var time = today.getHours();
     let bod = document.querySelector("body");
     let h1span = document.querySelector("#blogtitle");
-    let hed = document.querySelector("header");
+    // let hed = document.querySelector("header");
     let navcon = document.getElementById("hamburger");
     let mainnav = document.getElementById("mainNav");
     let bar1 = document.getElementById("bar1");
     let bar2 = document.getElementById("bar2");
     let bar3 = document.getElementById("bar3");
     let followAd = document.getElementById("follow");
-    let logo = document.getElementById("logo");
+    // let logo = document.getElementById("logo");
     let twitpic = document.getElementById("twitch");
     let insta = document.getElementById("insta");
     let youtube = document.getElementById("youtube");
@@ -18,14 +18,9 @@ function darkmode() {
     let twitter = document.getElementById("twitter");
     let soundcloud = document.getElementById("soundcloud");
     let footie = document.querySelector("footer");
+    let hero = document.getElementById("hero");
     
-    let title = document.getElementById("title");
-
-    
-
-
-    
-    
+    // let title = document.getElementById("title");
     
     if (time > 19 || time < 7) {
 
@@ -51,7 +46,7 @@ function darkmode() {
 
       bod.classList.remove("light-theme");
 
-      hed.classList.add("header-darkmode");
+    //   hed.classList.add("header-darkmode");
 
       navcon.classList.add("container-darkmode");
 
@@ -63,7 +58,7 @@ function darkmode() {
 
       bar3.classList.add("bar-darkmode");
 
-      logo.classList.add("logo-darkmode");
+    //   logo.classList.add("logo-darkmode");
 
       followAd.classList.add("followAd-darkmode");
 
@@ -83,21 +78,17 @@ function darkmode() {
 
       h1span.classList.add("blogtitle-darkmode");
 
-      logo.src = "images/DarkModeLogo.png";
-      
-      title.src = "images/DarkModeTitle.png";
+      hero.src = "images/FrontPageDarkText.png";
+
     }
     else {
-      logo.src = "images/LiteModeLogo.png";
-      title.src = "images/liteModeTitle.png";
+
       bod.classList.remove("dark-theme");
       bod.classList.add("light-theme");
-      hed.classList.remove("header-darkmode");
       navcon.classList.remove("container-darkmode");
       bar1.classList.remove("bar-darkmode");
       bar2.classList.remove("bar-darkmode");
       bar3.classList.remove("bar-darkmode");
-      logo.classList.remove("logo-darkmode");
       followAd.classList.remove("followAd-darkmode");
       twitpic.classList.remove("twitch-darkmode");
       twitpic.classList.add("twitch-lightmode")
@@ -128,6 +119,8 @@ function darkmode() {
       }
 
       h1span.classList.remove("blogtitle-darkmode");
+
+      hero.src = "images/FrontPageLiteText.png";
 
   
     }  

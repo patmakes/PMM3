@@ -1,84 +1,26 @@
 /* animation to show/hide new blog post links */
 
-@keyframes news1 {
+@keyframes menu {
     0% {
-      display: none;
-      transform: translateX(-130vw);
-    }
-    5% {
-      transform: translateX(0);
-      display: block;
-    }
-    25% {
-      transform: translateX(0);
-    }
-    30% {
-      transform: translateX(-130vw);
-      display: none;
-
+      transform: translateY(-130vw);
     }
     100% {
-      transform: translateX(-130vw);
-      display: none;
+      transform: translateY(-40vw);
     }
   }
   
-  @keyframes news2 {
-    
-    0% {
-      display: none;
-      transform: translateX(-130vw);
-    }
-    30% {
-      transform: translateX(-130vw);
-    }
-    35% {
-      display: block;
-      transform: translate(0);
-    }
-    55% {
-      transform: translate(0)
-    }
-    60% {
-      transform: translate(-130vw);
-      display: none;
-    }
-    100% {
-      transform: translateX(-130vw);
-      display: none;
-    }
-
-    
-  }
   
-  @keyframes news3 {
-
-    0% {
-      transform: translateX(-130vw);
-      display: none;
-    }
-    60% {
-      transform: translateX(-130vw);
-      display: none;
-    }
-    65% {
-      transform: translate(0);
-    }
-    85% {
-      transform: translate(0)
-    }
-    90% {
-      transform: translate(-130vw);
-      display: none;
-    }
-    100% {
-      transform: translateX(-130vw);
-      display: none;
-    }
-    
-  }
+  
+  
 
   /* main styles */
+
+  .transparency {
+    opacity: 50%;
+  }
+.opaque {
+  opacity: 100%;
+}
   
   body {
     margin: 0 auto;
@@ -97,26 +39,39 @@
 
   .dark-theme {
 
-    color: yellow;
+    color: #FFCB05;
     background: #111;
 
   }
   
   .logo {
-    height: 60px;
-    width: 60px;
+    height: 80px;
+    width: 80px;
     /* background-color: #ABABAB; */
     /* background: url("images2/jbasshero.png"); */
     /* padding: 25px; */
     border-radius: 100%;
-    border: 3pt solid #ABABAB;
+    /* border: 3pt solid #ABABAB; */
+  }
+
+  .title {
+    height: 120px;
+    width: 120px;
+  }
+
+  .titlewrap {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
   }
 
   .logo-darkmode {
-    border: 3pt solid #323232;
+    /* border: 3pt solid #323232; */
   }
   
   header {
+    position: sticky;
+    top: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -125,6 +80,7 @@
     background: #EEEEEE;
     text-align: center;
     width: auto;
+    z-index: 2;
     /* min-width: 325px; */
   }
 
@@ -133,85 +89,97 @@
     background: #111;
   }
 
-  /* hamburger nav styles  */
+ /* hamburger nav styles  */
   
-  .container {
-    display: inline-block;
-    cursor: pointer;
-    background-color: #ABABAB;
-    padding: 10px;
-    border-radius: 2pt;
-  }
+ .container {
+  display: inline-block;
+  cursor: pointer;
+  background-color: #ABABAB;
+  padding: 20px;
+  border-radius: 2pt;
+}
 
-  .container-darkmode {
-    background-color: #323232;
-  }
-  
-  .container:hover {
-    background-color: cyan;
-    transition: 2s;
-  }
+.container-darkmode {
+  background-color: #323232;
+}
 
-  /* .container-darkmode:hover {
-    background-color: #F15B26;
-  } */
-  
-  .bar1, .bar2, .bar3 {
-    width: 35px;
-    height: 5px;
-    background-color: #F15B26;
-    margin: 6px 0;
-    transition: 0.4s;
-  }
+.container:hover {
+  background-color: #00AEEF;
+  transition: 2s;
+}
 
-  .bar-darkmode {
-    background-color: yellow;
-  }
-  
-  .change .bar1 {
-    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-    transform: rotate(-45deg) translate(-9px, 6px);
-  }
-  
-  .change .bar2 {opacity: 0;}
-  
-  .change .bar3 {
-    -webkit-transform: rotate(45deg) translate(-8px, -8px);
-    transform: rotate(45deg) translate(-8px, -8px);
+/* .container-darkmode:hover {
+  background-color: #F15B26;
+} */
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #F15B26;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.bar-darkmode {
+  background-color: #FFCB05;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+  .navContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+   
+    
   }
   
   nav {
-    position: absolute;
-    top: 110px;
-    left: 65%;
-    display: inline-block;
-    width: 33vw;
-    max-width: 450px;
+    position: fixed;
+    top: 28%;
+    left:10vw;
+    right:10vw;
     text-align: center;
-    background-color: #BCBCBC;
-    z-index: 2;
+    
+    display: inline-block;
   }
   
   nav a {
-    display: block;
+    display: inline-block;
     padding: 10px;
-    outline: 1px #ABABAB solid;
+    border: 1px #ABABAB solid;
+    background: linear-gradient(#ABABAB,#323232);
     color: #F15B26;
     text-decoration: none;
+    font-size: 1.5em;
+    margin: 10px;
+    border-radius: 10pt;
+    z-index: 2;
   }
   
   nav a:hover {
-    background-color: cyan;
+    background-color: #00AEEF;
     color: #111;
   }
 
   .dark-nav-theme {
-    color: yellow;
-    background-color: #323232;
+    color: #FFCB05;
+    /* background-color: #323232; */
   }
 
   .dark-nav-theme a {
-    color: yellow;
+    color: #FFCB05;
     background-color: #323232;
   }
 
@@ -220,18 +188,25 @@
   /* hero and content styles  */
   
   main {
-    display: flex-wrap;
+    display: grid;
     min-height: 450px;
     text-align: center;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+  }
+
+  .MainHero {
+
+    width: 75%;
+    height: 75%;
+
   }
 
   .frontpage {
-    background: url("../images2/jneckshot.png")no-repeat center;
+    /* background: url("../images2/jstringsupclose.png")no-repeat center; */
     background-size: cover;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
   }
 
   
@@ -358,8 +333,8 @@
   .news h3 {
     display: inline-block;
     background: #111;
-    color: cyan;
-    position: relative;
+    color: #00AEEF;
+    /* position: relative; */
     top: -100px;
     font-size: 2em;
     padding: 20px;
@@ -367,7 +342,7 @@
   }
   
   #news1 {
-    position: absolute;
+    /* position: relative; */
     background: url("../images/noturgirlpropo.png") center no-repeat;
     background-size: 100%;
     animation-name: news1;
@@ -378,7 +353,7 @@
   }
   
   #news2 {
-    position: absolute;
+    /* position: relative; */
     background: url("../images/thatgumyoulikealbumart.png")no-repeat;
     background-size: 100%;
     background-position: 0 -70px;
@@ -390,7 +365,7 @@
   }
   
   #news3 {
-    position: absolute;
+    position: relative;
     background: url("../images2/cashboxImg.png")no-repeat;
     background-size: 200%;
     background-position: -100px -50px;
@@ -440,6 +415,7 @@
     align-items: center;
     /* margin-left: 10vw; */
     width: auto;
+    margin: 0 15px;
   }
 
 /* font styles  */
@@ -500,22 +476,23 @@
   .linkbuttons button {
     padding: 10px;
     margin: 20px;
-    background-color: cyan;
+    background-color: #00AEEF;
     color: #F15B26;
     border: none;
     border-radius: 5pt;
   }
 
   .linkbuttons button:hover {
-    background-color: yellow;
+    background-color: #FFCB05;
     color: #111;
     transition: 2s;
   }
 
   .biopic {
     width: 40%;
-    position: relative;
+    position: static;
     margin: 15px;
+    z-index: 0;
     
   }
 
@@ -529,6 +506,10 @@
     display: none;
   }
 
+  .hide {
+    display: hidden;
+  }
+
   .linkholder {
     display: flex;
     flex-wrap: wrap;
@@ -540,7 +521,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: yellow;
+    color: #FFCB05;
     text-decoration: none;
     width: 150px;
     height: 150px;
@@ -567,7 +548,7 @@
 
   .linkholder a:hover {
     background: #F15B26;
-    color: cyan;
+    color: #00AEEF;
     transition: 1.5s;
   }
 
@@ -631,7 +612,7 @@
   /* big screen media query */
 
 
-  @media only screen and (min-width: 900px) {
+  @media only screen and (min-width: 800px) {
     h1 {
       font-size: 3em;
     }
@@ -651,6 +632,16 @@
     .logo {
       height: 120px;
       width: 120px;
+    }
+
+    .title {
+      height: 150px;
+      width: 150px;
+    }
+
+    .MainHero {
+      height: 45%;
+      width: 45%;
     }
   
 

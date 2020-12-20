@@ -7,11 +7,19 @@
 
     let page = document.querySelector("main");
 
+    let body = document.querySelector("body");
+
+    let footer = document.querySelector("footer")
+
     // let page2 = document.querySelector("section");
   
   function cross() {
     hamburger.classList.toggle("change");
+    hamburger.classList.toggle("animation");
     nav.classList.toggle("hidden");
+    page.classList.add("transparency");
+    nav.classList.add("opaque");
+
     console.log("thanks");
   };
 
@@ -19,11 +27,16 @@
   hamburger.classList.remove("change");
   nav.classList.add("hidden");
   console.log("cancelled");
+  page.classList.remove("transparency");
   };
+
+  page.addEventListener("click", menuoff);
 
   hamburger.addEventListener("click", cross);
 
-  page.addEventListener("click", menuoff);
+  footer.addEventListener("click", menuoff)
+
+  
   
   // page2.addEventListener("click", menuoff);
   
