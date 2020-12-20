@@ -8,10 +8,6 @@
       transform: translateY(-40vw);
     }
   }
-  
-  
-  
-  
 
   /* main styles */
 
@@ -415,7 +411,7 @@
     align-items: center;
     /* margin-left: 10vw; */
     width: auto;
-    margin: 0 15px;
+    /* margin: 0 15px; */
   }
 
 /* font styles  */
