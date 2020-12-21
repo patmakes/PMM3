@@ -136,7 +136,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 15px 0;
+    margin: 3% 0;
    
     
   }
@@ -185,7 +185,7 @@
   
   main {
     display: grid;
-    min-height: 450px;
+    min-height: 425px;
     text-align: center;
   }
 
@@ -226,7 +226,7 @@
       "copyright copyright copyright copyright copyright copyright";
     text-align: center;
     column-gap: 10px;
-    padding: 10px;
+    /* padding: 10px; */
     margin: 0 auto;
   }
   
@@ -643,3 +643,13 @@
   
 
   }
+
+  /* 1792x828px at 326ppi */
+@media only screen 
+and (device-width: 414px) 
+and (device-height: 896px) 
+and (-webkit-device-pixel-ratio: 2) { 
+
+
+
+}
