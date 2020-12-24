@@ -205,6 +205,31 @@
     align-items: center;
   }
 
+  .buttonHolder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .printButton {
+    padding: 20px;
+    border-radius: 10pt;
+    background-color: #CECECE55;
+  }
+
+  .printButton-lightmode {
+    color: #F15B26;
+  }
+
+  .printButton-darkmode {
+    color: #FFCB05;
+  }
+
+  .printButton:active {
+    transition: 200ms;
+    background-color: #00AEEF;
+    color: #323232;
+  }
   
 
   /* footer and social media link styles  */
