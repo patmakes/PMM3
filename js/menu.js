@@ -7,9 +7,9 @@
 
     let page = document.querySelector("main");
 
-    let body = document.querySelector("body");
+    // let body = document.querySelector("body");
 
-    let footer = document.querySelector("footer")
+    let foot = document.querySelector("footer")
 
     // let page2 = document.querySelector("section");
   
