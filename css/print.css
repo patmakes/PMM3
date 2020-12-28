@@ -11,7 +11,8 @@
                             float: none;   
                               position: static; 
                                   overflow: visible; 
-                                    color: black !important;}
+                                    color: black !important;
+                                     background: none !important;}
     
                                   body {
                                       margin: 1.6cm;
