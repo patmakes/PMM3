@@ -518,6 +518,13 @@
     
   }
 
+  .patbio {
+    width: 60%;
+    position: static;
+    margin: 15px 20%;
+    z-index: 0;
+  }
+
   .quoteAttr {
     text-align: right;
     text-decoration: none;
@@ -638,9 +645,9 @@
   /* big screen media query */
 
 
-  @media only screen and (min-width: 800px) {
+  @media only screen and (min-width: 900px) {
     h1 {
-      font-size: 3em;
+      font-size: 1.7em;
     }
     h2 {
       text-align: left;
@@ -655,15 +662,15 @@
       margin-left: 80px;
       max-width: 350px;
     }
-    .logo {
-      height: 120px;
-      width: 120px;
+    /* .logo {
+      height: 80px;
+      width: 80px;
     }
 
     .title {
-      height: 150px;
-      width: 150px;
-    }
+      height: 125px;
+      width: 125px;
+    } */
 
     .MainHero {
       height: 30%;

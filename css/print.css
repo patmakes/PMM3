@@ -1,0 +1,19 @@
+@media only print {
+
+    @page {
+        margin: 3cm;
+    }
+    
+        body, h1, h2, h3, ol, ul, div, p {     width: auto;
+                 border: 0; 
+                     margin: 0 5%; 
+                         padding: 0;  
+                            float: none;   
+                              position: static; 
+                                  overflow: visible; }
+    
+                                  body {
+                                      margin: 1.6cm;
+                                  }
+     
+    }
