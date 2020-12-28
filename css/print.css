@@ -11,10 +11,11 @@
                             float: none;   
                               position: static; 
                                   overflow: visible; 
-                                    color: black;}
+                                    color: black !important;}
     
                                   body {
                                       margin: 1.6cm;
                                   }
+
      
     }

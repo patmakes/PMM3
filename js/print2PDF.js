@@ -2,6 +2,7 @@ let button = document.getElementById("PrintToPDF");
 let body = document.querySelector("body");
 // let ignore = document.getElementById("ignore");
 let header = document.querySelector("header");
+let ptext = document.querySelector("p");
 let footer = document.querySelector("footer")
 
 function cleanUp() {
