@@ -10,7 +10,8 @@
                          padding: 0;  
                             float: none;   
                               position: static; 
-                                  overflow: visible; }
+                                  overflow: visible; 
+                                    color: black;}
     
                                   body {
                                       margin: 1.6cm;
