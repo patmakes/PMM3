@@ -91,7 +91,7 @@
   display: inline-block;
   cursor: pointer;
   background-color: #ABABAB;
-  padding: 20px;
+  padding: 10px;
   border-radius: 2pt;
 }
 
@@ -193,6 +193,7 @@
 
     width: 75%;
     height: 75%;
+    padding: 20px 0 0 0;
 
   }
 
@@ -645,7 +646,7 @@
   /* big screen media query */
 
 
-  @media only screen and (min-width: 900px) {
+  @media only screen and (min-width: 700px) {
     h1 {
       font-size: 1.7em;
     }
