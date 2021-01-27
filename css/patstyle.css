@@ -55,16 +55,6 @@
     width: 100px;
   }
 
-  .titlewrap {
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-  }
-
-  .logo-darkmode {
-    /* border: 3pt solid #323232; */
-  }
-  
   header {
     position: sticky;
     top: 0;
@@ -204,6 +194,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    padding-top: 125px;
   }
 
   .buttonHolder {
@@ -253,7 +244,7 @@
     text-align: center;
     column-gap: 10px;
     /* padding: 10px; */
-    margin: 0 auto;
+    margin: 0 auto 20px auto;
   }
   
   .followAd {
@@ -334,6 +325,8 @@
   
   #copyright {
     grid-area: copyright;
+    text-align: center;
+    padding-top: 125px;
   }
 
   .news {
@@ -606,7 +599,7 @@
   }
 
   #twitchcont {
-    background: #222222DD;
+    background: none;
     width: auto;
     /* max-width: 800px; */
     text-align: center;
@@ -618,12 +611,14 @@
      display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 125px;
   }
 
   #twitch-embed {
-    margin: 0px 2px;
+    /* margin: 0px 2px; */
     width: auto;
     height: auto;
+
   }
 
   .blogpost-darkmode {
@@ -642,6 +637,7 @@
   .ignore {
     display: none;
   }
+
 
   /* big screen media query */
 

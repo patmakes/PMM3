@@ -19,6 +19,7 @@ function darkmode() {
     let soundcloud = document.getElementById("soundcloud");
     let footie = document.querySelector("footer");
     let hero = document.getElementById("hero");
+    let bumper = document.getElementById("bumper")
     
     // let title = document.getElementById("title");
     
@@ -104,6 +105,7 @@ function darkmode() {
       soundcloud.classList.add("soundcloud-lightmode")
       footie.classList.remove("main-darkmode");
       footie.classList.add("main-lightmode");
+    
 
       var x = document.querySelectorAll("p, h4");
         var i;

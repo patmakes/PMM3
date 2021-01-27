@@ -9,7 +9,7 @@ var embed = new Twitch.Embed("twitch-embed", {
     layout: "video",
     autoplay: false,
     // only needed if your site is also embedded on embed.example.com and othersite.example.com 
-    parent: String["https://www.patmakesmusic.com/live.html","https://patmakes.github.io/PMM3/live.html"]
+    parent: String["https://www.patmakesmusic.com/index.html","https://patmakes.github.io/PMM3/index.html"]
   });
 
   embed.addEventListener(Twitch.Embed.VIDEO_READY, function() {
