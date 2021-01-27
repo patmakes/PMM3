@@ -22,7 +22,7 @@ var embed = new Twitch.Embed("twitch-embed", {
   });
 
   embed.addEventListener(Twitch.Embed.OFFLINE, function() {
-    twitchcontainer.innerHTML = "Be back soon!";
+    twitchcontainer.innerHTML = "Live again soon!";
     twitchcontainer.classList.add("twitchcontHidden")
     twitchEmbed.classList.add("hidden");
     console.log("hide");
